@@ -1,12 +1,10 @@
 # speccy-bot
 
-## Instructions for setting up a Probot based bot on Glitch (adapted from Probot docs)
-
-## Getting Started
+## Getting Started (Running on Glitch, adapted from Probot docs) 
 
 To get your own Glitch-hosted Probot up-and-running, follow these steps. If you need more detail, the [Probot Docs](https://probot.github.io/docs/development/#configuring-a-github-app) are a great place to go to learn more.
 
-1. [Configure a new app on Github](https://github.com/settings/apps/new).
+1. [Configure a new app on GitHub](https://github.com/settings/apps/new) with the files from this project.
     - Hit the "Show" button on the top left of this page to find the URL. It will look something like `https://random-word.glitch.me/probot`, except the domain will be specific to your app.
     - For the Webhook URL, use this URL (again, updating the domain to match yours): `https://random-word.glitch.me/`. Notice that we left off the `/probot`.
     - For the Webhook Secret, just use "development".
