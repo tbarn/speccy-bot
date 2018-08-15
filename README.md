@@ -1,5 +1,9 @@
 # speccy-bot
 
+Speccy-bot is a GitHub based pull request bot that lints your OpenAPI Specification (v3) files. It uses the [Probot](https://github.com/probot/probot) framework and uses [Speccy](https://github.com/wework/speccy) for linting. 
+
+![Example](https://dzwonsemrish7.cloudfront.net/items/3c2r0I2Y1h0g0d1y1s24/Image%202018-08-15%20at%201.57.44%20PM.png?v=f106b09b)
+
 ## Getting Started (Running on Glitch, adapted from Probot docs) 
 
 To get your own Glitch-hosted Probot up-and-running, follow these steps. If you need more detail, the [Probot Docs](https://probot.github.io/docs/development/#configuring-a-github-app) are a great place to go to learn more.
