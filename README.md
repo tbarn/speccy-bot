@@ -1,6 +1,6 @@
 # speccy-bot
 
-## Instructions for setting up a Probot based bot on Glitch 
+## Instructions for setting up a Probot based bot on Glitch (adapted from Probot docs)
 
 ## Getting Started
 
