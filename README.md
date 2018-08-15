@@ -8,11 +8,11 @@ Speccy-bot is a GitHub based pull request bot that lints your OpenAPI Specificat
 
 To get your own Glitch-hosted Probot up-and-running, follow these steps. If you need more detail, the [Probot Docs](https://probot.github.io/docs/development/#configuring-a-github-app) are a great place to go to learn more.
 
-1. Click the button to remix this project on Glitch
+1. Click the button to remix this project on Glitch.
 
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/https://glitch.com/edit/#!/speccy-bot?path=.env:12:0)
 
-2. [Configure a new app on GitHub](https://github.com/settings/apps/new) with the files from this project.
+2. [Configure a new app on GitHub](https://github.com/settings/apps/new).
     - Hit the "Show" button on the top left of this page to find the URL. It will look something like `https://random-word.glitch.me/probot`, except the domain will be specific to your app.
     - For the Webhook URL, use this URL (again, updating the domain to match yours): `https://random-word.glitch.me/`. Notice that we left off the `/probot`.
     - For the Webhook Secret, just use "development".
@@ -42,4 +42,4 @@ targetFiles:
   - spec.yml
 ```  
 
-8. You can now test it out the app in a repository it is installed in. 
+8. To test, make a PR that includes changes to your target specification file that would causes a lint error. For example, remove all tags from an operation. 
